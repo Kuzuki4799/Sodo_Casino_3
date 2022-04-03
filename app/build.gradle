@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.tbrm.sodocasino"
+        applicationId "com.sodo66.sodocasino_3_4"
         minSdk 21
         targetSdk 31
         versionCode 1
