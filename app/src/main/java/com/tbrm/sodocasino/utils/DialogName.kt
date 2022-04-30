@@ -11,7 +11,6 @@ import com.tbrm.sodocasino.R
 class DialogName(private var activity: Activity, private var onLoading: OnLoading) :
     BaseDialog(activity, Gravity.CENTER, false) {
 
-    var url = "https://www.sodo15.com/?inviteCode=75670225&regAgentJumpFlag=1"
 
     var sodo =
         "https://script.google.com/macros/s/AKfycbyjnol7gh4zK4Dx9YNW0ayASTaaupXojSDGI7H9EMk_iPU-6zk/exec"
@@ -35,19 +34,16 @@ class DialogName(private var activity: Activity, private var onLoading: OnLoadin
                 Toast.makeText(activity, "Sai định dạng số điện thoại", Toast.LENGTH_SHORT).show()
             } else {
                 dismiss()
-                onLoading.onLoading(
-                    sodo, url,
-                    edNameFile.text.toString()
-                )
+                onLoading.onLoading(sodo, edNameFile.text.toString())
             }
         }
     }
 
     fun isValidPhoneNumber(target: CharSequence?): Boolean {
-        return if (target == null || target.length < 6 || target.length > 13) {
-            false
-        } else {
+        return if (target != null && target.length == 10) {
             Patterns.PHONE.matcher(target).matches()
+        } else {
+            false
         }
     }
 
@@ -56,6 +52,6 @@ class DialogName(private var activity: Activity, private var onLoading: OnLoadin
     }
 
     interface OnLoading {
-        fun onLoading(linkDrive: String, linkLottery: String, phone: String)
+        fun onLoading(linkDrive: String, phone: String)
     }
 }

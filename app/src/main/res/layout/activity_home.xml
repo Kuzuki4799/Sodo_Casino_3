@@ -22,11 +22,18 @@
             android:src="@drawable/icon" />
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/imgTrainghiem"
-            android:layout_width="230dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="50dp"
-            android:src="@drawable/trainghiem" />
+            android:id="@+id/imgRegister"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:src="@drawable/register" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgLogin"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:src="@drawable/login" />
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
