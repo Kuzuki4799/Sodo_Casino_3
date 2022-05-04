@@ -4,7 +4,7 @@
 @date 30.06.2017
 @for kwork.ru
  */
-package com.tbrm.sodocasino;
+package com.rmtkds.sunwin;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

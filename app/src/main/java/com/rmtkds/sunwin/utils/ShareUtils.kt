@@ -1,4 +1,4 @@
-package com.tbrm.sodocasino.utils
+package com.rmtkds.sunwin.utils
 
 import android.content.Context
 import android.preference.PreferenceManager

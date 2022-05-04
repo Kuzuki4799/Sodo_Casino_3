@@ -1,4 +1,4 @@
-package com.tbrm.sodocasino.utils
+package com.rmtkds.sunwin.utils
 
 class DataModel {
     var code = 0;

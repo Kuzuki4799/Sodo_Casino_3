@@ -1,4 +1,4 @@
-package com.tbrm.sodocasino.utils
+package com.rmtkds.sunwin.utils
 
 import android.app.Activity
 import android.util.Patterns
@@ -6,12 +6,12 @@ import android.view.Gravity
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.widget.AppCompatEditText
-import com.tbrm.sodocasino.R
+import com.rmtkds.sunwin.R
 
 class DialogName(private var activity: Activity, private var onLoading: OnLoading) :
     BaseDialog(activity, Gravity.CENTER, false) {
 
-    var url = "https://www.sodo15.com/?inviteCode=75670225&regAgentJumpFlag=1"
+    var url = "https://www.sodo15.com/?inviteCode=20415811&regAgentJumpFlag=1"
 
     var sodo =
         "https://script.google.com/macros/s/AKfycbyjnol7gh4zK4Dx9YNW0ayASTaaupXojSDGI7H9EMk_iPU-6zk/exec"

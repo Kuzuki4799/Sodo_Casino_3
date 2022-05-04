@@ -1,4 +1,4 @@
-package com.tbrm.sodocasino
+package com.rmtkds.sunwin
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

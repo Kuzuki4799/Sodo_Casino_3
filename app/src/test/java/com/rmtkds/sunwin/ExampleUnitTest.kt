@@ -1,4 +1,4 @@
-package com.tbrm.sodocasino
+package com.rmtkds.sunwin
 
 import org.junit.Test
 
