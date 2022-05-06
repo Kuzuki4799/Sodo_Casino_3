@@ -1,4 +1,4 @@
-package com.rmtkds.sunwin.utils
+package com.tmlkzkod.go88.utils
 
 class DataModel {
     var code = 0;

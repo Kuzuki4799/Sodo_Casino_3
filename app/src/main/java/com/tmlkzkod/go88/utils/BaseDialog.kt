@@ -1,4 +1,4 @@
-package com.rmtkds.sunwin.utils
+package com.tmlkzkod.go88.utils
 
 import android.content.Context
 import android.view.LayoutInflater

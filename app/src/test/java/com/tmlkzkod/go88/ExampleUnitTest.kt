@@ -1,4 +1,4 @@
-package com.rmtkds.sunwin
+package com.tmlkzkod.go88
 
 import org.junit.Test
 

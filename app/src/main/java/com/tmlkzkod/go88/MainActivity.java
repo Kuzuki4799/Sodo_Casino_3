@@ -4,7 +4,7 @@
 @date 30.06.2017
 @for kwork.ru
  */
-package com.rmtkds.sunwin;
+package com.tmlkzkod.go88;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

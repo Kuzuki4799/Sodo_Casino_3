@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.rmtkds.sunwin"
+        applicationId "com.tmlkzkod.go99"
         minSdk 21
         targetSdk 31
         versionCode 10

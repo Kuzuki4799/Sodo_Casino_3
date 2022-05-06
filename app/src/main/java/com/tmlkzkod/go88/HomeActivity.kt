@@ -1,4 +1,4 @@
-package com.rmtkds.sunwin
+package com.tmlkzkod.go88
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -13,8 +13,8 @@ import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.common.Priority
 import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.StringRequestListener
-import com.rmtkds.sunwin.utils.DialogName
-import com.rmtkds.sunwin.utils.ShareUtils
+import com.tmlkzkod.go88.utils.DialogName
+import com.tmlkzkod.go88.utils.ShareUtils
 import java.lang.Exception
 import java.lang.NullPointerException
 import kotlin.jvm.internal.Intrinsics

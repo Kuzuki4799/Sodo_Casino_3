@@ -1,4 +1,4 @@
-package com.rmtkds.sunwin
+package com.tmlkzkod.go88
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
