@@ -1,4 +1,4 @@
-package com.tbrm.sodocasino
+package com.ktkr.qh88
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -13,8 +13,8 @@ import com.androidnetworking.AndroidNetworking
 import com.androidnetworking.common.Priority
 import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.StringRequestListener
-import com.tbrm.sodocasino.utils.DialogName
-import com.tbrm.sodocasino.utils.ShareUtils
+import com.ktkr.qh88.utils.DialogName
+import com.ktkr.qh88.utils.ShareUtils
 import java.lang.Exception
 import java.lang.NullPointerException
 import kotlin.jvm.internal.Intrinsics

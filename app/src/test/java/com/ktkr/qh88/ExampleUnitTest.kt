@@ -1,4 +1,4 @@
-package com.tbrm.sodocasino
+package com.ktkr.qh88
 
 import org.junit.Test
 
